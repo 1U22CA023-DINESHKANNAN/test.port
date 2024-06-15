@@ -473,7 +473,7 @@ section{
 	color:gray;
 }
 .skill{
-	width:30vw;
+	width:12vw;
 	margin:20px;
 	display:flex;
 	justify-content:center;
@@ -646,8 +646,12 @@ section{
     .profile-pic img{
     width: 15vh;
     height: 15vh;
-   
-}
+    }
+   .skill{
+        width:27vw;
+        margin:30px;
+    }
+
 }
 
 
