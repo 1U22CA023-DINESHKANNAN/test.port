@@ -174,3 +174,29 @@ function downloadResume() {
   // Remove the link from the body
   document.body.removeChild(link);
 }
+
+
+function validateForm() {
+        var firstName = document.getElementById('first-name').value.trim();
+        var secondName = document.getElementById('second-name').value.trim();
+        var email = document.getElementById('email').value.trim();
+        var message = document.getElementById('message').value.trim();
+
+        // Simple validation - check if fields are not empty
+        if (firstName === '' || secondName === '' || email === '' || message === '') {
+            alert('Please fill out all fields');
+            return false;
+        }
+
+        // Additional validation for email format
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            alert('Please enter a valid email address');
+            return false;
+        }
+
+        // You can add more complex validation if needed
+
+        // If all validations pass, return true to allow form submission
+        return true;
+    }
