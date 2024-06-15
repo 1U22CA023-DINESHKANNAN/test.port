@@ -644,5 +644,19 @@ section{
     }
     .timeline-box{
 	height: 80%;
+    }
+    .profile-pic img{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    border: 8px solid #2c2f3f;
 }
+}
+
+
+
+
+
+
+	
 
