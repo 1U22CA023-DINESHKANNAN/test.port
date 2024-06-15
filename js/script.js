@@ -163,7 +163,7 @@ function downloadResume() {
   link.href = fileUrl;
 
   // Set the download attribute to force download
-  link.download = 'resume.pdf';
+  link.download = 'resume.jpg';
 
   // Append the link to the body
   document.body.appendChild(link);
