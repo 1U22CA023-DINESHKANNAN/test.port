@@ -349,11 +349,11 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2vh;
+    padding: 3vh;
     width: 100%;
 }
 .about-left-content-box{
-    width: 60%; 
+    width: 100%; 
     color: gray;
     word-spacing: 5px;
 }
