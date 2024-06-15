@@ -350,9 +350,7 @@ section{
     align-items: center;
     justify-content: center;
     padding: 2vh;
-    border-radius: 20px;
-    flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
 }
 .about-left-content-box{
     width: 60%; 
