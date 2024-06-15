@@ -227,7 +227,7 @@ section{
 }
 .timeline-box{
     width: 1vh;
-    height: 90%;
+    height: 85%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -263,7 +263,7 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 20vh;
+    padding: 2vh;
     border-radius: 10px;
 }
 .content h1{
@@ -642,6 +642,7 @@ section{
      .section-heading{
         top: 10px;
     }
-    
+    .timeline-box{
+	height: 80%;
 }
 
