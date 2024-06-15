@@ -597,14 +597,14 @@ section{
         flex-direction: column-reverse;
     }
     .contact-form button{
-        width: 75vw;
+        width: 80vw;
     }
     .c-row{
-        width: 75vw;
+        width: 80vw;
 
     }
     .contact-first-row{
-        width: 75vw;
+        width: 80vw;
         display: flex;
     }
     .contact-form .contact-first-row input{
@@ -612,8 +612,14 @@ section{
         padding: 2vw;
 
     }
-    .contact-form input,textarea{
-        width: 71vw;
+    .contact-form input{
+        width: 75vw;
+        padding: 2vw;
+	height: 5vw;
+    }
+    .contact-form textarea{
+	    height: 30vw;
+        width: 75vw;
         padding: 2vw;
     }
     .other-contact-info{
