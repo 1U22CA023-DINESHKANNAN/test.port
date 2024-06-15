@@ -154,7 +154,7 @@ const line = document.querySelector('.time-line');
 
 function downloadResume() {
   // Change the file path to match your file location
-  var fileUrl = '../asset/resume/resume.jpg';
+  var fileUrl = '../asset/resume/';
 
   // Create a temporary link element
   var link = document.createElement('a');
