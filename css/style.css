@@ -639,7 +639,9 @@ section{
         height: 10vh;
         padding: 2vh;
     }
-    
+     .section-heading{
+        top: 10px;
+    }
     
 }
 
