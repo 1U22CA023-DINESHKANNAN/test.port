@@ -199,9 +199,10 @@ section{
     top: 55%;
     left: 10%;
 	padding:10px;
+	border:2px solid blue;
 	border-radius:10px;
 	color:white;
-	background-color:blue;
+	background-color:transparent;
 }
 .nav-ham-icon{
     position: fixed;
