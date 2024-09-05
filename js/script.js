@@ -151,31 +151,6 @@ const line = document.querySelector('.time-line');
     // Initial check in case some boxes are already in view when the page loads
     checkInView();
 
-
-function downloadResume() {
-  // Change the file path to match your file location
-  var fileUrl = './resume.jpg';
-
-  // Create a temporary link element
-  var link = document.createElement('a');
-
-  // Set the href attribute of the link to the file URL
-  link.href = fileUrl;
-
-  // Set the download attribute to force download
-  link.download = 'resume.jpg';
-
-  // Append the link to the body
-  document.body.appendChild(link);
-
-  // Trigger a click event on the link to start download
-  link.click();
-
-  // Remove the link from the body
-  document.body.removeChild(link);
-}
-
-
 function validateForm() {
         var firstName = document.getElementById('first-name').value.trim();
         var secondName = document.getElementById('second-name').value.trim();
