@@ -198,6 +198,8 @@ section{
     font-size: 150%;
     top: 55%;
     left: 10%;
+	padding:10px;
+	border-radius:10px;
 }
 .nav-ham-icon{
     position: fixed;
